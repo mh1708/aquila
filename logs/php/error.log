@@ -1,0 +1,176 @@
+[07-Dec-2022 04:16:57 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ')' in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 15
+[07-Dec-2022 04:16:58 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ')' in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 15
+[07-Dec-2022 06:36:12 UTC] PHP Warning:  filemtime() expects exactly 1 parameter, 2 given in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 17
+[07-Dec-2022 06:36:12 UTC] PHP Stack trace:
+[07-Dec-2022 06:36:12 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:0
+[07-Dec-2022 06:36:12 UTC] PHP   2. require() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:17
+[07-Dec-2022 06:36:12 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-blog-header.php:19
+[07-Dec-2022 06:36:12 UTC] PHP   4. include() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template-loader.php:106
+[07-Dec-2022 06:36:12 UTC] PHP   5. get_header() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php:7
+[07-Dec-2022 06:36:12 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:48
+[07-Dec-2022 06:36:12 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:718
+[07-Dec-2022 06:36:12 UTC] PHP   8. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:783
+[07-Dec-2022 06:36:12 UTC] PHP   9. wp_head() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\header.php:13
+[07-Dec-2022 06:36:12 UTC] PHP  10. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:3043
+[07-Dec-2022 06:36:12 UTC] PHP  11. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:36:12 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:36:12 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:36:12 UTC] PHP  14. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\script-loader.php:2180
+[07-Dec-2022 06:36:12 UTC] PHP  15. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:36:12 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:36:12 UTC] PHP  17. aquila_enqueue_script() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:36:12 UTC] PHP  18. filemtime() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php:17
+[07-Dec-2022 06:36:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php on line 7
+[07-Dec-2022 06:36:55 UTC] PHP Warning:  filemtime() expects exactly 1 parameter, 3 given in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 17
+[07-Dec-2022 06:36:55 UTC] PHP Stack trace:
+[07-Dec-2022 06:36:55 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:0
+[07-Dec-2022 06:36:55 UTC] PHP   2. require() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:17
+[07-Dec-2022 06:36:55 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-blog-header.php:19
+[07-Dec-2022 06:36:55 UTC] PHP   4. include() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template-loader.php:106
+[07-Dec-2022 06:36:55 UTC] PHP   5. get_header() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php:7
+[07-Dec-2022 06:36:55 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:48
+[07-Dec-2022 06:36:55 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:718
+[07-Dec-2022 06:36:55 UTC] PHP   8. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:783
+[07-Dec-2022 06:36:55 UTC] PHP   9. wp_head() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\header.php:13
+[07-Dec-2022 06:36:55 UTC] PHP  10. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:3043
+[07-Dec-2022 06:36:55 UTC] PHP  11. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:36:55 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:36:55 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:36:55 UTC] PHP  14. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\script-loader.php:2180
+[07-Dec-2022 06:36:55 UTC] PHP  15. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:36:55 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:36:55 UTC] PHP  17. aquila_enqueue_script() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:36:55 UTC] PHP  18. filemtime() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php:17
+[07-Dec-2022 06:36:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php on line 7
+[07-Dec-2022 06:37:31 UTC] PHP Warning:  filemtime() expects exactly 1 parameter, 3 given in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 17
+[07-Dec-2022 06:37:31 UTC] PHP Stack trace:
+[07-Dec-2022 06:37:31 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:0
+[07-Dec-2022 06:37:31 UTC] PHP   2. require() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:17
+[07-Dec-2022 06:37:31 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-blog-header.php:19
+[07-Dec-2022 06:37:31 UTC] PHP   4. include() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template-loader.php:106
+[07-Dec-2022 06:37:31 UTC] PHP   5. get_header() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php:7
+[07-Dec-2022 06:37:31 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:48
+[07-Dec-2022 06:37:31 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:718
+[07-Dec-2022 06:37:31 UTC] PHP   8. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:783
+[07-Dec-2022 06:37:31 UTC] PHP   9. wp_head() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\header.php:13
+[07-Dec-2022 06:37:31 UTC] PHP  10. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:3043
+[07-Dec-2022 06:37:31 UTC] PHP  11. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:37:31 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:37:31 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:37:31 UTC] PHP  14. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\script-loader.php:2180
+[07-Dec-2022 06:37:31 UTC] PHP  15. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:37:31 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:37:31 UTC] PHP  17. aquila_enqueue_script() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:37:31 UTC] PHP  18. filemtime() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php:17
+[07-Dec-2022 06:37:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php on line 7
+[07-Dec-2022 06:38:48 UTC] PHP Warning:  filemtime() expects exactly 1 parameter, 3 given in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 17
+[07-Dec-2022 06:38:48 UTC] PHP Stack trace:
+[07-Dec-2022 06:38:48 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:0
+[07-Dec-2022 06:38:48 UTC] PHP   2. require() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:17
+[07-Dec-2022 06:38:48 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-blog-header.php:19
+[07-Dec-2022 06:38:48 UTC] PHP   4. include() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template-loader.php:106
+[07-Dec-2022 06:38:48 UTC] PHP   5. get_header() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php:7
+[07-Dec-2022 06:38:48 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:48
+[07-Dec-2022 06:38:48 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:718
+[07-Dec-2022 06:38:48 UTC] PHP   8. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:783
+[07-Dec-2022 06:38:48 UTC] PHP   9. wp_head() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\header.php:13
+[07-Dec-2022 06:38:48 UTC] PHP  10. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:3043
+[07-Dec-2022 06:38:48 UTC] PHP  11. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:38:48 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:38:48 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:38:48 UTC] PHP  14. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\script-loader.php:2180
+[07-Dec-2022 06:38:48 UTC] PHP  15. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:38:48 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:38:48 UTC] PHP  17. aquila_enqueue_script() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:38:48 UTC] PHP  18. filemtime() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php:17
+[07-Dec-2022 06:43:24 UTC] PHP Warning:  filemtime() expects exactly 1 parameter, 3 given in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 19
+[07-Dec-2022 06:43:24 UTC] PHP Stack trace:
+[07-Dec-2022 06:43:24 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:0
+[07-Dec-2022 06:43:24 UTC] PHP   2. require() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:17
+[07-Dec-2022 06:43:24 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-blog-header.php:19
+[07-Dec-2022 06:43:24 UTC] PHP   4. include() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template-loader.php:106
+[07-Dec-2022 06:43:24 UTC] PHP   5. get_header() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php:7
+[07-Dec-2022 06:43:24 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:48
+[07-Dec-2022 06:43:24 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:718
+[07-Dec-2022 06:43:24 UTC] PHP   8. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:783
+[07-Dec-2022 06:43:24 UTC] PHP   9. wp_head() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\header.php:13
+[07-Dec-2022 06:43:24 UTC] PHP  10. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:3043
+[07-Dec-2022 06:43:24 UTC] PHP  11. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:43:24 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:43:24 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:43:24 UTC] PHP  14. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\script-loader.php:2180
+[07-Dec-2022 06:43:24 UTC] PHP  15. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:43:24 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:43:24 UTC] PHP  17. aquila_enqueue_script() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:43:24 UTC] PHP  18. filemtime() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php:19
+[07-Dec-2022 06:44:08 UTC] PHP Warning:  filemtime() expects exactly 1 parameter, 4 given in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 19
+[07-Dec-2022 06:44:08 UTC] PHP Stack trace:
+[07-Dec-2022 06:44:08 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:0
+[07-Dec-2022 06:44:08 UTC] PHP   2. require() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:17
+[07-Dec-2022 06:44:08 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-blog-header.php:19
+[07-Dec-2022 06:44:08 UTC] PHP   4. include() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template-loader.php:106
+[07-Dec-2022 06:44:08 UTC] PHP   5. get_header() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php:7
+[07-Dec-2022 06:44:08 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:48
+[07-Dec-2022 06:44:08 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:718
+[07-Dec-2022 06:44:08 UTC] PHP   8. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:783
+[07-Dec-2022 06:44:08 UTC] PHP   9. wp_head() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\header.php:13
+[07-Dec-2022 06:44:08 UTC] PHP  10. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:3043
+[07-Dec-2022 06:44:08 UTC] PHP  11. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:44:08 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:44:08 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:44:08 UTC] PHP  14. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\script-loader.php:2180
+[07-Dec-2022 06:44:08 UTC] PHP  15. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:44:08 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:44:08 UTC] PHP  17. aquila_enqueue_script() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:44:08 UTC] PHP  18. filemtime() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php:19
+[07-Dec-2022 06:44:39 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 19
+[07-Dec-2022 06:44:39 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 19
+[07-Dec-2022 06:44:50 UTC] PHP Warning:  filemtime(): stat failed for http://localhost:10010/wp-content/themes/Aquila/assets/main.js in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 19
+[07-Dec-2022 06:44:50 UTC] PHP Stack trace:
+[07-Dec-2022 06:44:50 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:0
+[07-Dec-2022 06:44:50 UTC] PHP   2. require() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:17
+[07-Dec-2022 06:44:50 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-blog-header.php:19
+[07-Dec-2022 06:44:50 UTC] PHP   4. include() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template-loader.php:106
+[07-Dec-2022 06:44:50 UTC] PHP   5. get_header() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php:7
+[07-Dec-2022 06:44:50 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:48
+[07-Dec-2022 06:44:50 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:718
+[07-Dec-2022 06:44:50 UTC] PHP   8. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:783
+[07-Dec-2022 06:44:50 UTC] PHP   9. wp_head() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\header.php:13
+[07-Dec-2022 06:44:50 UTC] PHP  10. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:3043
+[07-Dec-2022 06:44:50 UTC] PHP  11. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:44:50 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:44:50 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:44:50 UTC] PHP  14. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\script-loader.php:2180
+[07-Dec-2022 06:44:50 UTC] PHP  15. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:44:50 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:44:50 UTC] PHP  17. aquila_enqueue_script() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:44:50 UTC] PHP  18. filemtime() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php:19
+[07-Dec-2022 06:45:12 UTC] PHP Warning:  filemtime(): stat failed for http://localhost:10010/wp-content/themes/Aquila/assets/main.js in C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php on line 19
+[07-Dec-2022 06:45:12 UTC] PHP Stack trace:
+[07-Dec-2022 06:45:12 UTC] PHP   1. {main}() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:0
+[07-Dec-2022 06:45:12 UTC] PHP   2. require() C:\Users\Admin\Local Sites\theme-wordpress\app\public\index.php:17
+[07-Dec-2022 06:45:12 UTC] PHP   3. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-blog-header.php:19
+[07-Dec-2022 06:45:12 UTC] PHP   4. include() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template-loader.php:106
+[07-Dec-2022 06:45:12 UTC] PHP   5. get_header() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\index.php:7
+[07-Dec-2022 06:45:12 UTC] PHP   6. locate_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:48
+[07-Dec-2022 06:45:12 UTC] PHP   7. load_template() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:718
+[07-Dec-2022 06:45:12 UTC] PHP   8. require_once() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\template.php:783
+[07-Dec-2022 06:45:12 UTC] PHP   9. wp_head() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\header.php:13
+[07-Dec-2022 06:45:12 UTC] PHP  10. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\general-template.php:3043
+[07-Dec-2022 06:45:12 UTC] PHP  11. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:45:12 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:45:12 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:45:12 UTC] PHP  14. do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\script-loader.php:2180
+[07-Dec-2022 06:45:12 UTC] PHP  15. WP_Hook->do_action() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\plugin.php:517
+[07-Dec-2022 06:45:12 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:332
+[07-Dec-2022 06:45:12 UTC] PHP  17. aquila_enqueue_script() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-includes\class-wp-hook.php:308
+[07-Dec-2022 06:45:12 UTC] PHP  18. filemtime() C:\Users\Admin\Local Sites\theme-wordpress\app\public\wp-content\themes\aquila\functions.php:19
